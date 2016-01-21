@@ -2,6 +2,9 @@
 
 ## About
 
+### Build Status
+[![Build Status](https://drone.containership.io/api/badges/containership/go-containership.cloud/status.svg)](https://drone.containership.io/containership/go-containership.cloud)
+
 ### Description
 A Go API client for ContainerShip Cloud
 
