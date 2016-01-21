@@ -1,0 +1,10 @@
+build:
+  image: library/golang:1.5.3
+  commands:
+    - ./test/prepublish.sh
+
+notify:
+  slack:
+    webhook_url: $$SLACK_RELEASES_WEBHOOK
+    channel: releases
+    username: drone
